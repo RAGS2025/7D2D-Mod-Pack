@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+
+	<Name value="JRB_ZombieLootDrop_25" />
+	<DisplayName value="Zombie Loot Drop Increase 25%" />
+	<Description value="Changes probability of loot drop from .02/0.3 to .25" />
+	<Author value="jrbarrio" />
+	<Version value="4.0" />
+	
+</xml>
