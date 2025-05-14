@@ -1,0 +1,30 @@
+<MumpfyAndLittleRedSonja>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupAllArmor']">
+	
+		<item name="armorFemaleClaireHelmet"/>
+		<item name="armorFemaleClaireHelmet_Barbie"/>
+		<item name="armorFemaleClaireOutfit"/>
+		<item name="armorFemaleClaireOutfit_Barbie"/>
+		<item name="armorFemaleClaireGloves"/>
+		<item name="armorFemaleClaireBoots"/>
+		
+		<item name="armorFemaleSnakeInFlowersHelmet_Hood"/>
+		<item name="armorFemaleSnakeInFlowersHelmet_Necklace"/>
+		<item name="armorFemaleSnakeInFlowersOutfit"/>
+		<item name="armorFemaleSnakeInFlowersGloves"/>
+		<item name="armorFemaleSnakeInFlowersBoots"/>
+		
+		<item name="armorFemaleJillHelmet"/>
+		<item name="armorFemaleJillOutfit"/>
+		<item name="armorFemaleJillGloves"/>		
+		<item name="armorFemaleJillBoots"/>
+		
+		<item name="armorFemaleBladeHelmet"/>
+		<item name="armorFemaleBladeOutfit"/>
+		<item name="armorFemaleBladeGloves"/>
+		<item name="armorFemaleBladeBoots"/>
+		
+	</append>
+
+</MumpfyAndLittleRedSonja>

@@ -1,0 +1,38 @@
+<MumpfyAndLittleRedSonja>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLight']">
+	
+		<item name="armorFemaleClaireHelmet" quality="1,5"/>
+		<item name="armorFemaleClaireHelmet_Barbie" quality="1,5"/>
+		<item name="armorFemaleClaireOutfit" quality="1,5"/>
+		<item name="armorFemaleClaireOutfit_Barbie" quality="1,5"/>
+		<item name="armorFemaleClaireGloves" quality="1,5"/>
+		<item name="armorFemaleClaireBoots" quality="1,5"/>
+		
+		<item name="armorFemaleSnakeInFlowersHelmet_Hood" quality="1,5"/>
+		<item name="armorFemaleSnakeInFlowersHelmet_Necklace" quality="1,5"/>
+		<item name="armorFemaleSnakeInFlowersOutfit" quality="1,5"/>
+		<item name="armorFemaleSnakeInFlowersGloves" quality="1,5"/>
+		<item name="armorFemaleSnakeInFlowersBoots" quality="1,5"/>
+			
+	</append>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorMedium']">
+	
+		<item name="armorFemaleJillHelmet" quality="1,5"/>
+		<item name="armorFemaleJillOutfit" quality="1,5"/>
+		<item name="armorFemaleJillGloves" quality="1,5"/>
+		<item name="armorFemaleJillBoots" quality="1,5"/>
+			
+	</append>
+
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorHeavy']">
+	
+		<item name="armorFemaleBladeHelmet" quality="1,5"/>
+		<item name="armorFemaleBladeOutfit" quality="1,5"/>
+		<item name="armorFemaleBladeGloves" quality="1,5"/>
+		<item name="armorFemaleBladeBoots" quality="1,5"/>
+			
+	</append>
+			
+</MumpfyAndLittleRedSonja>

@@ -1,0 +1,142 @@
+<FNS_Make_Quest_Rewards_Great_Again>
+
+<setattribute xpath="/quests/quest[starts-with(@id, 'tier')]/property[@name='reward_choices_count']" name="value">10</setattribute>
+
+    <append xpath="//quest[starts-with(@id, 'tier1')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+    </append>
+	
+    <append xpath="//quest[starts-with(@id, 'tier2')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestT1SkillMagazineBundle,groupQuestSteel01" ischosen="true" value="2"/>
+    </append>
+
+    <append xpath="//quest[starts-with(@id, 'tier3')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT2,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="3"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT1,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="3"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestT1SkillMagazineBundle,groupQuestSteel01" ischosen="true" value="3"/>
+    </append>
+
+    <append xpath="//quest[starts-with(@id, 'tier4')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT2,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="4"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT1,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="4"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestT1SkillMagazineBundle,groupQuestSteel02" ischosen="true" value="4"/>
+    </append>
+	
+    <append xpath="//quest[starts-with(@id, 'tier5')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT3,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="5"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestGas,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="5"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestT1SkillMagazineBundle,groupQuestSteel02" ischosen="true" value="5"/>
+    </append>
+
+    <append xpath="//quest[starts-with(@id, 'tier6')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT3,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="6"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestGas,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="6"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestT1SkillMagazineBundle,groupQuestSteel02" ischosen="true" value="6"/>
+    </append>
+	
+	
+<conditional>
+	<if cond="mod_loaded('DBsCustomQuests')">	
+	
+<!--	Tier 1   -->
+
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestHound')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestHound')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+    </append>
+
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestCrawler')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestCrawler')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+    </append>
+	
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestHazmat')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestHazmat')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="1"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="1"/>
+    </append>
+	
+<!--	Tier 2   -->
+
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestGhost')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestGhost')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="2"/>
+    </append>
+
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestRotnier')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestRotnier')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="2"/>
+    </append>
+
+<!--	Tier 3   -->
+
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestRegenerator')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestRegenerator')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="3"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="3"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="3"/>
+    </append>
+
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestFireDevil')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestFireDevil')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="3"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="3"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="3"/>
+    </append>
+	
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestPlagueBearer')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestPlagueBearer')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="3"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="3"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="3"/>
+    </append>
+	
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestHuntingParty')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestHuntingParty')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="3"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="3"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="3"/>
+    </append>
+
+<!--	Tier 4   -->
+
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestGrumm')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestGrumm')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="4"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="4"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="4"/>
+    </append>
+
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestJuggernaut')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestJuggernaut')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="4"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="4"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="4"/>
+    </append>
+
+<!--	Tier 5   -->
+
+<setattribute xpath="/quests/quest[starts-with(@id, 'KillQuestSuperHorde')]/property[@name='reward_choices_count']" name="value">10</setattribute>	
+    <append xpath="//quest[starts-with(@id, 'KillQuestSuperHorde')]">
+		<reward type="LootItem" id="groupQuestWeaponsRangedT1,groupQuestMods,groupQuestTools,groupQuestAmmo" ischosen="true" value="5"/>
+		<reward type="LootItem" id="groupQuestSchematics,groupQuestResourcesT0,groupQuestFood,groupQuestMedical,groupQuestWeapons" ischosen="true" value="5"/>
+		<reward type="LootItem" id="groupQuestArmor,groupQuestArmorResources,groupQuestSchematics,groupQuestT1SkillMagazineBundle" ischosen="true" value="5"/>
+    </append>
+
+	</if>
+</conditional>	
+
+</FNS_Make_Quest_Rewards_Great_Again>

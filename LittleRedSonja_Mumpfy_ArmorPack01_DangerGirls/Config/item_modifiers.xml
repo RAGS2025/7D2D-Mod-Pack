@@ -1,0 +1,28 @@
+<MumpfyAndLittleRedSonja>
+
+	<append xpath="/item_modifiers/item_modifier[contains(@name,'Silencer')]">
+	
+		<effect_group name="SnakeInFlowersSilencerDMG">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1">
+				<requirement name="CVarCompare" cvar="SnakeInFlowersSilencer" operation="Equals" value="1"/>
+			</passive_effect>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".2">
+				<requirement name="CVarCompare" cvar="SnakeInFlowersSilencer" operation="Equals" value="2"/>
+			</passive_effect>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".3">
+				<requirement name="CVarCompare" cvar="SnakeInFlowersSilencer" operation="Equals" value="3"/>
+			</passive_effect>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".4">
+				<requirement name="CVarCompare" cvar="SnakeInFlowersSilencer" operation="Equals" value="4"/>
+			</passive_effect>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".5">
+				<requirement name="CVarCompare" cvar="SnakeInFlowersSilencer" operation="Equals" value="5"/>
+			</passive_effect>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".6">
+				<requirement name="CVarCompare" cvar="SnakeInFlowersSilencer" operation="Equals" value="6"/>
+			</passive_effect>			
+		</effect_group>
+
+	</append>
+
+</MumpfyAndLittleRedSonja>

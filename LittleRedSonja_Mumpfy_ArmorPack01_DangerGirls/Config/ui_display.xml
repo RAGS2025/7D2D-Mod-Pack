@@ -1,0 +1,43 @@
+<MumpfyAndLittleRedSonja>
+
+	<append xpath="/ui_display_info/item_display">
+	
+		<item_display_info display_type="armorFemaleClaireHelmet" display_group="groupAttire" extends="armorLight" >
+			<display_entry name="dClaireDamage" title_key="statClaireDamage" display_type="Percent" display_leading_plus="true"/>
+		</item_display_info>
+		
+		<item_display_info display_type="armorFemaleClaireGloves" display_group="groupAttire" extends="armorLight" >
+			<display_entry name="dClaireLootCash" title_key="statClaireLootCash" display_type="Percent" display_leading_plus="true"/>
+		</item_display_info>
+		
+		<item_display_info display_type="armorSnakeInFlowersGloves" display_group="groupAttire" extends="armorLight" >
+			<display_entry name="dSnakeInFlowersDMG" title_key="statSnakeInFlowersDMG" display_type="Percent" display_leading_plus="true"/>
+		</item_display_info>
+		
+		<item_display_info display_type="armorSnakeInFlowersHelmet" display_group="groupAttire" extends="armorLight" >
+			<display_entry name="dSnakeInFlowersSneak" title_key="statSnakeInFlowersSneak" display_type="Percent" display_leading_plus="true"/>	
+		</item_display_info>
+		
+		<item_display_info display_type="armorFemaleJillHelmet" display_group="groupAttire" extends="armorMediumNew" >
+			<display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true"/>
+		</item_display_info>
+		
+		<item_display_info display_type="armorFemaleJillOutfit" display_group="groupAttire" extends="armorMediumNew" >
+			<display_entry name="dCarryCapacity"  title_key="statCarryCapacity" display_leading_plus="true"/>
+		</item_display_info>
+		
+		<item_display_info display_type="armorFemaleJillGloves" display_group="groupAttire" extends="armorMediumNew" >
+			<display_entry name="dJillDamage"  title_key="statJillDamage" display_type="Percent" display_leading_plus="true"/>
+		</item_display_info>
+		
+		<item_display_info display_type="armorFemaleJillBoots" display_group="groupAttire" extends="armorMediumNew" >
+			<display_entry name="dFuelUsage"  title_key="statFuelUsage" display_type="Percent" display_leading_plus="true"/>
+		</item_display_info>
+		
+		<item_display_info display_type="armorFemaleBladeGloves" display_group="groupAttire" extends="armorHeavy" >
+			<display_entry name="dEntityDamage"  title_key="statEntityDamageRanged" display_type="Percent" display_leading_plus="true"/>
+		</item_display_info>
+				
+	</append>
+	
+</MumpfyAndLittleRedSonja>

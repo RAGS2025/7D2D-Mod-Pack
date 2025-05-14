@@ -1,0 +1,42 @@
+<FNS_Make_Quest_Rewards_Great_Again>
+   
+   <remove xpath="//window[@name='windowQuestTurnInRewards']/rect[@name='rectOptions']"/>
+	
+	<append xpath="//window[@name='windowQuestTurnInRewards']">
+	
+	<rect name="rectOptions" pos="0,-153" height="235" width="653" depth="1">
+			
+			<scrollbar	name="scrollbar"
+					depth="75"
+					pos="650,-75"
+					width="10"
+					height="200"
+					padding="4"
+					foregroundcolor="[mediumGrey]"
+					foregroundsprite="menu_empty3px"
+					pivot="center" />
+
+			<scrollview name="scrollable_response" depth="50" scrollbar="scrollbar" reset_position="true" over_scroll="false" scroll_speed=".25">
+			
+			<grid name="gridOptions" rows="20" cols="1" pos="0,0" width="653" cell_height="47" cell_width="650" arrangement="vertical">
+				<quest_turnin_entry pos="0,0" />
+				<quest_turnin_entry pos="0,-50" />
+				<quest_turnin_entry pos="0,-92" />
+				<quest_turnin_entry pos="0,-142" />
+				<quest_turnin_entry pos="0,-192" />
+				<quest_turnin_entry pos="0,-242" />
+				<quest_turnin_entry pos="0,-292" />
+				<quest_turnin_entry pos="0,-342" />
+				<quest_turnin_entry pos="0,-392" />
+				<quest_turnin_entry pos="0,-442" /> 
+				
+			</grid>
+			
+			</scrollview>
+			
+			
+		</rect>
+		
+	</append>	
+	
+</FNS_Make_Quest_Rewards_Great_Again>

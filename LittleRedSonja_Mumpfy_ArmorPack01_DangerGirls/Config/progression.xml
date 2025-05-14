@@ -1,0 +1,16 @@
+<MumpfyAndLittleRedSonja>
+	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/display_entry[@name_key='armorT2']/unlock_entry/@item">,armorDangerGirlsLightArmor</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/display_entry[@name_key='armorT2']/unlock_entry/@recipes">,armorFemaleClaireHelmet,armorFemaleClaireHelmet_Barbie,armorFemaleClaireOutfit,armorFemaleClaireOutfit_Barbie,armorFemaleClaireGloves,armorFemaleClaireBoots,armorFemaleSnakeInFlowersHelmet_Hood,armorFemaleSnakeInFlowersHelmet_Necklace,armorFemaleSnakeInFlowersOutfit,armorFemaleSnakeInFlowersGloves,armorFemaleSnakeInFlowersBoots</append>
+
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/display_entry[@name_key='armorT3']/unlock_entry/@item">,armorDangerGirlsMediumArmor</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/display_entry[@name_key='armorT3']/unlock_entry/@recipes">,armorFemaleJillHelmet,armorFemaleJillOutfit,armorFemaleJillGloves,armorFemaleJillBoots</append>
+
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/display_entry[@name_key='armorT4']/unlock_entry/@item">,armorDangerGirlsHeavyArmor</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/display_entry[@name_key='armorT4']/unlock_entry/@recipes">,armorFemaleBladeHelmet,armorFemaleBladeOutfit,armorFemaleBladeGloves,armorFemaleBladeBoots</append>
+
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/effect_group/passive_effect[@level='11,100']/@tags">,armorFemaleClaireHelmet,armorFemaleClaireHelmet_Barbie,armorFemaleClaireOutfit,armorFemaleClaireOutfit_Barbie,armorFemaleClaireGloves,armorFemaleClaireBoots,armorFemaleSnakeInFlowersHelmet_Hood,armorFemaleSnakeInFlowersHelmet_Necklace,armorFemaleSnakeInFlowersOutfit,armorFemaleSnakeInFlowersGloves,armorFemaleSnakeInFlowersBoots,armorFemaleJillHelmet,armorFemaleJillOutfit,armorFemaleJillGloves,armorFemaleJillBoots,armorFemaleBladeHelmet,armorFemaleBladeOutfit,armorFemaleBladeGloves,armorFemaleBladeBoots</append>
+
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/effect_group/passive_effect[@level='20,40,60,80,100']/@tags">,armorFemaleClaireHelmet,armorFemaleClaireHelmet_Barbie,armorFemaleClaireOutfit,armorFemaleClaireOutfit_Barbie,armorFemaleClaireGloves,armorFemaleClaireBoots,armorFemaleSnakeInFlowersHelmet_Hood,armorFemaleSnakeInFlowersHelmet_Necklace,armorFemaleSnakeInFlowersOutfit,armorFemaleSnakeInFlowersGloves,armorFemaleSnakeInFlowersBoots,armorFemaleJillHelmet,armorFemaleJillOutfit,armorFemaleJillGloves,armorFemaleJillBoots,armorFemaleBladeHelmet,armorFemaleBladeOutfit,armorFemaleBladeGloves,armorFemaleBladeBoots</append>
+	
+</MumpfyAndLittleRedSonja>
